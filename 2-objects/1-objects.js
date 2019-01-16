@@ -6,7 +6,19 @@
 
 // Aquí tu código
 
+let ordenador = [{
+    marca: 'La pava',
+    tipo: 'portátil',
+    perifericos: 'touchPad',
+    almacenamiento : {
+        discos: 'HDD',
+        maestro: 'SSD'
+    }
 
+}
+
+
+]
 
 // Hasta aquí
 

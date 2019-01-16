@@ -33,3 +33,24 @@ let gente = [{
     },
 ]
 
+var j = 0;
+var miArray = [];
+for (let i of gente) {
+
+    miArray[j] = i.nombre;
+    j += 1;
+}
+
+
+        //if i.nombre.length = 4
+    let result = miArray.filter(word => word.length = 4);
+        console.log(result);
+
+    let result2 = gente.filter(gente => gente.nombre.length = 4);
+    console.log(result2);
+
+//var words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
+
+//const result = words.filter(word => word.length > 6);
+
+//console.log(result);

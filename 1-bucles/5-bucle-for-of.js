@@ -33,3 +33,16 @@ let gente = [{
         edad: 10
     },
 ]
+
+
+var j = 0;
+var miArray = [];
+for (let i of gente) {
+    if (i.nombre.charAt(0) == "J")
+
+    {
+        miArray[j] = i.nombre;
+        console.log(miArray[j]);
+        j +=1;
+    }
+}
