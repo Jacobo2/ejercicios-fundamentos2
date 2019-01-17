@@ -46,3 +46,5 @@ for (let i of gente) {
         j +=1;
     }
 }
+
+//modificado jacobo n6
